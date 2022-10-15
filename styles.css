@@ -73,3 +73,35 @@ button {
     height: 25px;
     border: none;
 }
+
+.info-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 20%;
+    border: 5px #3882F6;
+    border-style: solid;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.information-img {
+    display: flex;
+}
+
+figcaption {
+    text-align: center;
+    color: #1F2937;
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937
+}
