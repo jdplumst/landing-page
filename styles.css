@@ -4,22 +4,29 @@ body {
     margin: 0%;
 }
 
-.header, .footer {
+.header, .footer, .title {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items:flex-start;
     background-color: #1F2937;
 }
 
-.header {
+.header, .title {
     padding-left: 100px;
     padding-right: 100px;
+}
+
+.header {
+    padding-bottom: 50px;
 }
 
 ul {
     display: flex;
     gap: 16px;
     list-style: none;
+}
+
+ul, p {
     color: #E5E7EB;
     font-size: 18px;
 }
@@ -27,4 +34,42 @@ ul {
 h3 {
     font-size: 24px;
     color: #F9FAF8;
+}
+
+#display {
+    width: 600px;
+    height: 300px;
+}
+
+.title {
+    padding-bottom: 50px;
+    gap: 48px;
+}
+
+.title-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 300px;
+}
+
+.title-img {
+    flex: 2 1 0%;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    margin-bottom: -10px;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: #F9FAF8;
+    width: 100px;
+    height: 25px;
+    border: none;
 }
