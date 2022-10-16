@@ -26,7 +26,7 @@ ul {
     list-style: none;
 }
 
-ul, p {
+ul, .title-desc {
     color: #E5E7EB;
     font-size: 18px;
 }
@@ -104,4 +104,23 @@ h2 {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-author {
+    padding-left: 500px;
 }
