@@ -4,7 +4,7 @@ body {
     margin: 0%;
 }
 
-.header, .footer, .title {
+.header, .title {
     display: flex;
     justify-content: space-between;
     align-items:flex-start;
@@ -26,7 +26,7 @@ ul {
     list-style: none;
 }
 
-ul, .title-desc, .call-desc {
+ul, .title-desc, .call-desc, .footer-text {
     color: #E5E7EB;
     font-size: 18px;
 }
@@ -149,4 +149,11 @@ h2 {
 
 .call-desc {
     margin-top: -20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #1F2937;
 }
